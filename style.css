@@ -184,8 +184,9 @@ background: #fff;
 padding: 15px 0;
 }
 .disclaimer {
-	color:#666;
-	font-size:9px;
+	color: #666;
+	font-size: 9px;
+	width: 75%;
 }
 #footer {
 	padding: 0 0 0 0;
