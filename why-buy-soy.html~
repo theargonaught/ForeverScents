@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <!-- InstanceBeginEditable name="doctitle" -->
 <title>Forever Scents - Handmade Soy Candles</title>
@@ -84,7 +84,6 @@ ddsmoothmenu.init({
      <!--<li><a href="/featured.html">Featured Items</a></li>-->
     <li><a href="safety-tips.html">Candle Safety Tips</a></li>
     <li><a href="contact-us.html">Contact Us</a></li>
-    	 <li><a href="breads.html">Breads</a></li>
   </ul>
   <br style="clear: left" />
 </div><!--End smoothmenu1 / ddsmoothmenu-->
@@ -97,12 +96,19 @@ ddsmoothmenu.init({
 <div id="content">
 
 <!-- InstanceBeginEditable name="content" -->
-<div id="center">
-  <p style="font-size:24px ; padding-bottom:400px">Thank you for your order! </p>
-  <p>We strive to ship in-stock orders within 1 business day. You should receive a shipping confirmation soon!</p>
-  <p>If you have any comments of questions, send us an email at:<br /><a href="mailto:customerservice@forever-scents.com">customerservice@forever-scents.com</a>
-  </p>
-</div>
+<div id="center"><h1>Benefits of buying a soy candle</h1>
+<ul>
+  <li>Soy Wax is made from Soybeans that are grown in the USA</li>
+  <li> Completely Renewable helping to Support American Farmers</li>
+  <li> Naturally Biodegradable</li>
+  <li> Non-Toxic  </li>
+  <li>Water Soluble  </li>
+  <li>Cost Effective because it Burns up to 50% Slower than Paraffin Candles  </li>
+  <li>Eco-Friendly</li>
+  <li> 90% less Soot than Paraffin Wax</li>
+  <li> Wonderful Scent Throw</li>
+  <li> Burns at a cooler temperature </li>
+</ul></div>
 <!-- InstanceEndEditable -->
 
 

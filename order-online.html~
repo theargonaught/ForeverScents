@@ -84,7 +84,6 @@ ddsmoothmenu.init({
      <!--<li><a href="/featured.html">Featured Items</a></li>-->
     <li><a href="safety-tips.html">Candle Safety Tips</a></li>
     <li><a href="contact-us.html">Contact Us</a></li>
-    <li><a href="breads.html">Breads</a></li>
   </ul>
   <br style="clear: left" />
 </div><!--End smoothmenu1 / ddsmoothmenu-->

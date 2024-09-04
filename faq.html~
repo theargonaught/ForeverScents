@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>Forever Scents - Handmade Soy Candles</title>
+<title>Forever Scents - Frequently Asked Questions</title>
 <!-- InstanceEndEditable -->
 <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
 <meta http-equiv="Content-Language" content="English" />
@@ -84,7 +84,6 @@ ddsmoothmenu.init({
      <!--<li><a href="/featured.html">Featured Items</a></li>-->
     <li><a href="safety-tips.html">Candle Safety Tips</a></li>
     <li><a href="contact-us.html">Contact Us</a></li>
-    	 <li><a href="breads.html">Breads</a></li>
   </ul>
   <br style="clear: left" />
 </div><!--End smoothmenu1 / ddsmoothmenu-->
@@ -98,10 +97,18 @@ ddsmoothmenu.init({
 
 <!-- InstanceBeginEditable name="content" -->
 <div id="center">
-  <p style="font-size:24px ; padding-bottom:400px">Thank you for your order! </p>
-  <p>We strive to ship in-stock orders within 1 business day. You should receive a shipping confirmation soon!</p>
-  <p>If you have any comments of questions, send us an email at:<br /><a href="mailto:customerservice@forever-scents.com">customerservice@forever-scents.com</a>
-  </p>
+<div style="text-align:center ; font-size:36px ; line-height:50px">F.A.Q.</div>
+<div class="faq-q">What are the burn times for each size candle?</div>
+<div class="faq-a"> 9 oz. burns for 40-50 hours<br />
+6 Cube block (Wax Melt) for up to 50 hours</div>
+<div class="faq-q">Is it ok to ship soy candles in the summertime?</div>
+<div class="faq-a">If you are shipping finished candles in hot weather, it may become a little too soft for the summer heat. </div>
+<div class="faq-q">What kind of soy wax do you use?</div>
+<div class="faq-a">We use Golden Brand Soy Wax and Ecosoya PB Pillar Soy Wax, which are all-natural soy waxes.</div>
+
+
+<div>Have a question?  Submit it to <a href="mailto:foreverscents2010@gmail.com">foreverscents2010@gmail.com</a></div>
+
 </div>
 <!-- InstanceEndEditable -->
 
