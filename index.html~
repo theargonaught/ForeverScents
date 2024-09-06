@@ -79,14 +79,14 @@ ddsmoothmenu.init({
 
 <div id="smoothmenu1" class="ddsmoothmenu">
   <ul>
-    <li><a href="http://www.forever-scents.com/index.html">Home</a></li>
-    <li><a href="http://www.forever-scents.com/order-online.html">Order Online</a></li>
-    <li><a href="http://www.forever-scents.com/why-buy-soy.html">Why Buy A Soy Candle?</a></li>
-    <li><a href="http://www.forever-scents.com/faq.html">F.A.Q.</a></li>
+    <li><a href="/index.html">Home</a></li>
+    <li><a href="/order-online.html">Order Online</a></li>
+    <li><a href="why-buy-soy.html">Why Buy A Soy Candle?</a></li>
+    <li><a href="/faq.html">F.A.Q.</a></li>
      <!--<li><a href="/featured.html">Featured Items</a></li>-->
-    <li><a href="http://www.forever-scents.com/safety-tips.html">Candle Safety Tips</a></li>
-    <li><a href="http://www.forever-scents.com/contact-us.html">Contact Us</a></li>
-	  <li><a href="http://www.forever-scents.com/breads.html">Breads</a></li>
+    <li><a href="safety-tips.html">Candle Safety Tips</a></li>
+    <li><a href="contact-us.html">Contact Us</a></li>
+	  <li><a href="breads.html">Breads</a></li>
   </ul>
   <br style="clear: left" />
 </div><!--End smoothmenu1 / ddsmoothmenu-->
