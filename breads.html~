@@ -86,7 +86,7 @@ ddsmoothmenu.init({
      <!--<li><a href="/featured.html">Featured Items</a></li>-->
     <li><a href="safety-tips.html">Candle Safety Tips</a></li>
     <li><a href="contact-us.html">Contact Us</a></li>
-	  <li><a href="breads.html">Breads</a></li>
+	 <li><a href="breads.html">Breads</a></li>
   </ul>
   <br style="clear: left" />
 </div><!--End smoothmenu1 / ddsmoothmenu-->
@@ -100,7 +100,7 @@ ddsmoothmenu.init({
 
 <!-- InstanceBeginEditable name="content" -->
 <div id="center">
-<div style="padding-bottom:500px">
+<div style="padding-bottom:300px">
   
 
 <div>
@@ -123,9 +123,12 @@ ddsmoothmenu.init({
 </div>
 
 	<br />
-  <p style=font-size:18px;">
-	  <img src="images/breads/breads-with-fruits.jpg" width="150px"/>
+  <p style=font-size:14px;">
+	  <img src="images/breads/breads-with-fruits.jpg" width="250px"/>
   <br>
+ For ordering breads, send an email to<br>
+ <a href="mailto:foreverscents2010@gmail.com">foreverscents2010@gmail.com</a><p>
+ Ships to Illinois customers only.<p>
  
       Forever Scents Soy Candles & Breads are Handmade in Ottawa, Illinois. 
     </p>
@@ -141,7 +144,7 @@ ddsmoothmenu.init({
 
 <div id="footer">
 <p class="disclaimer">Disclaimer:
-This site and all the pages within are the property of  Forever Scents, LLC.  All pricing and  specifications are subject to change without notice.  All rights reserved.</p>
+This site and all the pages within are the property of Forever Scents, LLC.  All pricing and specifications are subject to change without notice.  All rights reserved.</p>
 &copy; Copyright <script type="text/javascript">
 		var theDate=new Date()
 		document.write(theDate.getFullYear())
