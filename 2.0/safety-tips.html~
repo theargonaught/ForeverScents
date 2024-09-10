@@ -98,8 +98,8 @@ ddsmoothmenu.init({
 
 <!-- InstanceBeginEditable name="content" -->
 <div id="center">
-
-<div style="display:inline-block; text-align:left; ">
+<div style="display:inline-block; text-align:left;">
+<div style="display:inline-block; text-align:left;">
 <h1>Candle Safety Tips</h1>
 <ul>
 <li>Never leave a burning candle unattended.  </li>
@@ -109,6 +109,7 @@ ddsmoothmenu.init({
 <li>Keep wick trimmed to about 1/4 inch to avoid excessive flame height. </li>
 <li>Use a snuffer or carefully blow out the candle and quickly place the lid on to extinguish the wick if it is still partially lit.</li>
 </ul>
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 </div>
 </div>
 <!-- InstanceEndEditable -->

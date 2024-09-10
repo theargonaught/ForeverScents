@@ -65,6 +65,16 @@ color: #fff;
 	background:#FFF;
 	text-align: center;
 }
+.menu ul li a{
+	display: inline; /*background of menu items (default state)*/
+	color: white;
+	padding: 8px 10px;
+	border-right: 1px solid #778;
+	color: #330033;
+	text-decoration: none;
+	background-color: purple;
+	float:left;
+}
 #content {
 background: #fff;
 }
@@ -92,10 +102,9 @@ padding-left: 10px;
 
 #center {
 	width: 780px;
-	min-height:400px;
+	height:auto;
 	padding: 10px;
 	text-align:center;
-	
 }
 
 #candlebox {

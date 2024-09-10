@@ -84,6 +84,7 @@ ddsmoothmenu.init({
      <!--<li><a href="/featured.html">Featured Items</a></li>-->
     <li><a href="safety-tips.html">Candle Safety Tips</a></li>
     <li><a href="contact-us.html">Contact Us</a></li>
+    	 <li><a href="breads.html">Breads</a></li>
   </ul>
   <br style="clear: left" />
 </div><!--End smoothmenu1 / ddsmoothmenu-->
@@ -96,7 +97,9 @@ ddsmoothmenu.init({
 <div id="content">
 
 <!-- InstanceBeginEditable name="content" -->
-<div id="center"><h1>Benefits of buying a soy candle</h1>
+<div id="center">
+<h1>Benefits of buying a soy candle!</h1>
+<div style="display:inline-block; text-align:left; ">
 <ul>
   <li>Soy Wax is made from Soybeans that are grown in the USA</li>
   <li> Completely Renewable helping to Support American Farmers</li>
@@ -108,7 +111,9 @@ ddsmoothmenu.init({
   <li> 90% less Soot than Paraffin Wax</li>
   <li> Wonderful Scent Throw</li>
   <li> Burns at a cooler temperature </li>
-</ul></div>
+</ul>
+</div>
+</div>
 <!-- InstanceEndEditable -->
 
 
