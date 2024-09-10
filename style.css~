@@ -92,9 +92,10 @@ padding-left: 10px;
 
 #center {
 	width: 780px;
-	height:auto;
+	min-height:400px;
 	padding: 10px;
 	text-align:center;
+	
 }
 
 #candlebox {
