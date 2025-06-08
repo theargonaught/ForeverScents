@@ -187,9 +187,9 @@ ddsmoothmenu.init({
 </div>
 <input type="hidden" name="currency_code" value="USD">
 <input type="hidden" name="option_select0" value="9 oz. Soy Candle">
-<input type="hidden" name="option_amount0" value="9.00">
+<input type="hidden" name="option_amount0" value="10.00">
 <input type="hidden" name="option_select1" value="Wax Melt">
-<input type="hidden" name="option_amount1" value="6.00">
+<input type="hidden" name="option_amount1" value="8.00">
 <input type="hidden" name="option_index" value="0">
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
