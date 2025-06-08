@@ -99,11 +99,11 @@ ddsmoothmenu.init({
 <!-- InstanceBeginEditable name="content" -->
 <div id="center">
 <div id="candlebox">
-	<div style="text-align:center ; font-size:20px ; line-height:50px">  <a href="mailto:test@test.com">Email us your order and we'll ship it to your door!</a>
+	<div style="text-align:center ; font-size:20px ; line-height:50px">  <a href="mailto:foreverscents2010@gmail.com">Email us your order and we'll ship it to your door!</a>
 	
 	
 	</div>
-	<!--
+	
 <div style="text-align:center ; font-size:36px ; line-height:50px">Candle Options:</div>
 <div class="" align="center" style="text-align:center">
   
@@ -132,9 +132,7 @@ ddsmoothmenu.init({
 	
 
 <option value="Apple Cinnamon">Apple Cinnamon </option>
-
 <option value="Apple Hot Baked Pie">Apple Hot Baked Pie </option>
-
 <option value="Banana Nut Bread">Banana Nut Bread </option>
 <option value="Blue Spruce">Blue Spruce </option>
 <option value="Blueberry Cobbler">Blueberry Cobbler </option>
@@ -165,7 +163,6 @@ ddsmoothmenu.init({
 <option value="Merry Mistletoe">Merry Mistletoe </option>
 <option value="Moonlight Path">Moonlight Path </option>
 <option value="Mulled Cider">Mulled Cider </option>
-
 <option value="Orange and Chili Pepper">Orange and Chili Pepper </option>
 <option value="Patchouli">Patchouli </option>
 <option value="Peach">Peach </option>
@@ -197,7 +194,7 @@ ddsmoothmenu.init({
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
- -->
+
   
 </div>
 
