@@ -125,7 +125,7 @@ ddsmoothmenu.init({
 <tr><td><input type="hidden" name="on0" value="Products">
   <strong>Products</strong></td></tr><tr><td><select name="os0">
 	<option value="9 oz. Soy Candle">9 oz. Soy Candle $10.00 USD</option>
-	<option value="Wax Melt">Wax Melt $7.00 USD</option>
+	<option value="Wax Melt">Wax Melt $8.00 USD</option>
 </select> </td></tr>
 <tr><td><input type="hidden" name="on1" value="Fragrances">
   <strong>Fragrances</strong></td></tr><tr><td><select name="os1">
