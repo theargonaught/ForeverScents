@@ -93,10 +93,9 @@ height: 30px;
 line-height: 30px;
 padding-left: 10px;
 }
-#left ul { color: #2C4715; padding: 5px 0 5px 30px; list-style-type: square; }
 #left ul li { padding-bottom: 5px; }
-#left ul li a { color: #2C4715; text-decoration: none;  }
-#left ul li a:hover { color: #000; }
+#left ul li a { color: #2f1d4f; text-decoration: none;  }
+#left ul li a:hover { color: #3a295c; }
 
 #center {
 	width: 100%;
@@ -170,20 +169,18 @@ width: 180px;
 padding: 10px 30px 10px 0;
 }
 #right h2 { 
-background: #fff url(images/sidebarh2.png) no-repeat;
-color: #005EB0; 
-height: 30px;
-line-height: 30px;
-color: #fff;
-padding-left: 10px;
-font-size: 15px; 
-letter-spacing: -1px; 
-font-weight: 100;
+	background: #fff url(images/sidebarh2.png) no-repeat;
+	color: #3a295c;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+	font-size: 15px; 
+	letter-spacing: -1px; 
+	font-weight: 100;
 }
-#right ul { color: #2C4715; padding: 5px 0 5px 30px; list-style-type: square; }
 #right ul li { padding-bottom: 5px; }
-#right ul li a { color: #2C4715; text-decoration: none;  }
-#right ul li a:hover { color: #000; }
+#right ul li a { color: #2f1d4f; text-decoration: none;  }
+#right ul li a:hover { color: #3a295c; }
 
 #bottom { 
 	background: #fff;
@@ -266,9 +263,4 @@ font-weight: 100;
 #right ul {
 	list-style: none;
 	padding-left: 0;
-}
-
-#left ul li a,
-#right ul li a {
-	color: #2f1d4f;
 }
