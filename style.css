@@ -18,24 +18,27 @@ body {
 	line-height: 1.6;
 	color: #1f2937;
 	background: radial-gradient(circle at top, #3f2b6b 0%, #2a1c4b 45%, #1b122e 100%);
-	padding-top: 64px;
+	padding-top: 96px;
 }
 
 body::before {
-	content: "Iteration 01";
+	content: "Iteration 02 - Visual Check";
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
-	height: 56px;
+	height: 80px;
 	background: #dc2626;
 	color: #ffffff;
 	font-weight: 700;
-	letter-spacing: 0.4px;
+	font-size: 20px;
+	letter-spacing: 1px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	box-shadow: 0 8px 20px rgba(127, 29, 29, 0.35);
+	box-shadow: 0 12px 24px rgba(127, 29, 29, 0.4);
+	text-transform: uppercase;
+	border-bottom: 4px solid #7f1d1d;
 	z-index: 9999;
 }
 
