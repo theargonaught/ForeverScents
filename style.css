@@ -22,7 +22,7 @@ body {
 }
 
 body::before {
-	content: "Iteration 03 - Full Refresh";
+	content: "Iteration 04 - Menu Options";
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -91,9 +91,34 @@ color: #fff;
 
 #navbar {
 	font-size: 15px;
-	background: #2f1d4f;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-	padding: 18px 24px;
+	background: #271a42;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	padding: 14px 20px 20px;
+}
+
+.menu-stack {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.menu-option {
+	min-height: 92px;
+	background: rgba(35, 23, 58, 0.55);
+	border: 1px solid rgba(193, 165, 232, 0.25);
+	border-radius: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 16px;
+}
+
+.menu-option--b {
+	background: rgba(43, 28, 70, 0.55);
+}
+
+.menu-option--c {
+	background: rgba(51, 33, 82, 0.55);
 }
 #content {
 	background: #ffffff;
@@ -226,40 +251,48 @@ padding: 10px 30px 10px 0;
 #footer a { color: #eee; text-decoration: none; }
 #footer a:hover { text-decoration: underline; }
 
-#smoothmenu1 ul {
+#smoothmenu1 ul,
+.menu-option ul {
 	list-style: none;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	gap: 24px;
+	gap: 14px;
+	margin: 0;
+	padding: 0;
 }
 
-#smoothmenu1 ul li {
+#smoothmenu1 ul li,
+.menu-option ul li {
 	float: none;
 }
 
-#smoothmenu1 ul li a {
+#smoothmenu1 ul li a,
+.menu-option ul li a {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	padding: 6px 2px;
-	border-radius: 0;
-	font-weight: 500;
-	letter-spacing: 0.8px;
-	text-transform: uppercase;
+	min-height: 36px;
+	padding: 10px 18px;
+	border-radius: 999px;
+	font-weight: 600;
+	letter-spacing: 0.2px;
+	text-transform: none;
 	color: #ffffff;
-	background: transparent;
-	border: none;
-	border-bottom: 2px solid transparent;
-	transition: transform 0.2s ease, box-shadow 0.2s ease;
-	min-height: 28px;
+	background: #5b3aa7;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
 }
 
-#smoothmenu1 ul li a:hover {
+#smoothmenu1 ul li a:hover,
+.menu-option ul li a:hover {
 	transform: translateY(-1px);
-	box-shadow: none;
-	border-color: #c1a5e8;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
+	background: #724fbf;
+	border-color: rgba(255, 255, 255, 0.4);
+	text-decoration: none;
+	color: #ffffff;
 }
 
 #content p,
