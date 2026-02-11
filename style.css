@@ -18,29 +18,9 @@ body {
 	line-height: 1.6;
 	color: #211a2f;
 	background: radial-gradient(circle at top, #3f2b6b 0%, #2a1c4b 45%, #1b122e 100%);
-	padding-top: 96px;
+	padding-top: 0;
 }
 
-body::before {
-	content: "Iteration 04 - Menu Options";
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	height: 80px;
-	background: #dc2626;
-	color: #ffffff;
-	font-weight: 700;
-	font-size: 20px;
-	letter-spacing: 1px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	box-shadow: 0 12px 24px rgba(127, 29, 29, 0.4);
-	text-transform: uppercase;
-	border-bottom: 4px solid #7f1d1d;
-	z-index: 9999;
-}
 
 img { border: none; }
 a { color: #5b3aa7; text-decoration: none; }
@@ -96,29 +76,15 @@ color: #fff;
 	padding: 14px 20px 20px;
 }
 
-.menu-stack {
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-}
-
-.menu-option {
+#smoothmenu1 {
 	min-height: 92px;
-	background: rgba(35, 23, 58, 0.55);
+	background: rgba(43, 28, 70, 0.55);
 	border: 1px solid rgba(193, 165, 232, 0.25);
 	border-radius: 16px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	padding: 10px 16px;
-}
-
-.menu-option--b {
-	background: rgba(43, 28, 70, 0.55);
-}
-
-.menu-option--c {
-	background: rgba(51, 33, 82, 0.55);
 }
 #content {
 	background: #ffffff;
@@ -251,8 +217,7 @@ padding: 10px 30px 10px 0;
 #footer a { color: #eee; text-decoration: none; }
 #footer a:hover { text-decoration: underline; }
 
-#smoothmenu1 ul,
-.menu-option ul {
+#smoothmenu1 ul {
 	list-style: none;
 	display: flex;
 	flex-wrap: wrap;
@@ -263,13 +228,11 @@ padding: 10px 30px 10px 0;
 	padding: 0;
 }
 
-#smoothmenu1 ul li,
-.menu-option ul li {
+#smoothmenu1 ul li {
 	float: none;
 }
 
-#smoothmenu1 ul li a,
-.menu-option ul li a {
+#smoothmenu1 ul li a {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
@@ -285,8 +248,7 @@ padding: 10px 30px 10px 0;
 	transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
 }
 
-#smoothmenu1 ul li a:hover,
-.menu-option ul li a:hover {
+#smoothmenu1 ul li a:hover {
 	transform: translateY(-1px);
 	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
 	background: #724fbf;
