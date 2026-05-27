@@ -6,8 +6,9 @@
     { href: 'why-buy-soy.html', label: 'Why Soy?' },
     { href: 'faq.html',         label: 'FAQ' },
     { href: 'safety-tips.html', label: 'Safety Tips' },
-    { href: 'breads.html',      label: 'Breads' },
-    { href: 'contact-us.html',  label: 'Contact Us' },
+    { href: 'breads.html',                  label: 'Breads' },
+    { href: 'ottawa-farmers-market.html',   label: "Farmer's Market" },
+    { href: 'contact-us.html',              label: 'Contact Us' },
   ];
 
   const current = window.location.pathname.split('/').pop() || 'index.html';
@@ -58,6 +59,7 @@
           <li><a href="faq.html">FAQ</a></li>
           <li><a href="safety-tips.html">Safety Tips</a></li>
           <li><a href="breads.html">Fresh Breads</a></li>
+          <li><a href="ottawa-farmers-market.html">Farmer's Market</a></li>
           <li><a href="contact-us.html">Contact Us</a></li>
         </ul>
       </div>
