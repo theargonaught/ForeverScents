@@ -47,7 +47,7 @@
   <footer class="site-footer">
     <div class="footer-grid">
       <div class="footer-col">
-        <div class="footer-logo"><img src="logo.jpg" alt="Forever Scents"></div>
+        <a href="index.html" class="footer-logo" aria-label="Forever Scents Home"><img src="logo.jpg" alt="Forever Scents"></a>
         <p class="footer-tagline">Handmade soy candles, wax melts &amp; fresh baked breads crafted in Ottawa, Illinois.<br>Small batch, big heart.</p>
       </div>
       <div class="footer-col">
