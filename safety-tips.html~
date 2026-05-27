@@ -99,7 +99,7 @@ ddsmoothmenu.init({
 <!-- InstanceBeginEditable name="content" -->
 <div id="center">
 
-<div style="display:inline-block; text-align:left; ">
+<div style="display:inline-block; text-align:center; ">
 <h1>Candle Safety Tips</h1>
 <ul>
 <li>Never leave a burning candle unattended.  </li>
