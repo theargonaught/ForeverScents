@@ -29,10 +29,6 @@
     .map-placeholder .map-icon { font-size: 2.5rem; }
     .map-placeholder strong { color: var(--deep); font-size: 1rem; display: block; }
 
-    /* If you have a real embed, replace .map-placeholder with an <iframe> like:
-       <iframe src="https://www.google.com/maps/embed?..." width="100%" height="320"
-               style="border:0; border-radius:8px;" allowfullscreen loading="lazy"></iframe> */
-
     /* MARKET TABLE */
     .market-table {
       width: 100%;
@@ -114,176 +110,20 @@
 
   <div class="page-hero">
     <h1>Ottawa <em style="color:var(--gold-lt);">Farmer's Market</em></h1>
-    <p>Find us every Saturday morning in Ottawa, Illinois — stocked with handmade soy candles, wax melts, and fresh baked sweet breads.</p>
+    <p>We want to thank everybody for a great 2026 season.<br>  We'll see you in spring 2027!</p>
+   <!-- <p>Find us every Saturday morning in Ottawa, Illinois — stocked with handmade 
+      soy candles, wax melts, and fresh baked sweet breads.</p>-->
   </div>
 
-  <!-- MAP + INFO -->
-  <section class="content-section bg-white">
-    <div class="content-inner-wide">
-
-      <div class="grid-2" style="gap:2rem; align-items:center;">
-
-        <!-- MAP -->
-        <div>
-          <span class="section-label" style="display:block; margin-bottom:1rem;">Where to Find Us</span>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1089.9752233978766!2d-88.84163967934047!3d41.34907664959215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDIwJzU2LjQiTiA4OMKwNTAnMzAuOSJX!5e0!3m2!1sen!2sus!4v1779847727848!5m2!1sen!2sus" width="100%" height="450" style="border:0; border-radius:var(--radius);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-
-        <!-- QUICK INFO -->
-        <div style="display:flex; flex-direction:column; gap:1rem;">
-
-          <span class="section-label" style="display:block;">Market Details</span>
-
-          <div class="info-card">
-            <span class="ic-icon">🗓️</span>
-            <div>
-              <h3>Every Saturday</h3>
-              <p>We're at the Ottawa Farmer's Market every Saturday Morning for rest of the summer.</p>
-            </div>
-          </div>
-
-          <div class="info-card">
-            <span class="ic-icon">⏰</span>
-            <div>
-              <h3>Morning Hours</h3>
-              <p>Open 8AM Sharp. Come by in the morning for the best selection. We often sell out of popular bread flavors by midday.</p>
-            </div>
-          </div>
-
-          <div class="info-card">
-            <span class="ic-icon">🕯️</span>
-            <div>
-              <h3>What We Bring</h3>
-              <p>Handmade soy candles, wax melts in seasonal &amp; year-round scents, and nine varieties of fresh baked sweet breads.</p>
-            </div>
-          </div>
-
-          <div class="info-card" style="border-color:var(--gold);">
-            <span class="ic-icon">💬</span>
-            <div>
-              <h3>Custom Orders Welcome</h3>
-              <p>Want a specific scent or bread variety? <a href="contact-us.html" style="color:var(--violet); font-weight:600;">Contact us</a> ahead of time and we'll have it ready for you at the market.</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-  </section>
+  
 
 
-  <!-- SCHEDULE TABLE -->
-  <section class="content-section bg-pale">
-    <div class="content-inner">
-      <h2 class="section-title" style="text-align:center; margin-bottom:0.25rem;">2026 Market Schedule</h2>
-      <p style="text-align:center; color:var(--muted); font-size:0.9rem; margin-bottom:1.75rem;">Every Saturday · Ottawa Farmer's Market · 8:00 AM</p>
-
-      <table class="market-table">
-        <thead>
-          <tr>
-            <th>Date</th>
-            <th>Special Event / Notes</th>
-          </tr>
-        </thead>
-        <tbody>
-          <!-- <tr class="finished">
-            <td class="date-col">May 30th </td>
-            <td>🎉 First Market Day!</td>
-          </tr>
-          <tr class="finished">
-            <td class="date-col">June 6th </td>
-            <td class="time-col"></td>
-          </tr> 
-          <tr>
-            <td class="date-col">June 13th</td>
-            <td>Ottawa's Family Pride Festival</td>
-          </tr>
-          <tr class="finished">
-            <td class="date-col">June 20th </td>
-            <td class="time-col"></td>
-          </tr>
-          <tr>
-            <td class="date-col finished">June 27th</td>
-            <td class="finished">Run Today for Tomorrow</td>
-          </tr>
-          <tr>
-            <td class="date-col finished">July 4th</td>
-            <td class="time-col"></td>
-          </tr>
-          <tr>
-            <td class="date-col finished">July 11th</td>
-            <td class="time-col"></td>
-          </tr>
-          <tr>
-            <td class="date-col finished">July 18th</td>
-            <td class="time-col"></td>
-          </tr>
-          <tr> 
-            <td class="date-col finished">July 25th</td>
-            <td class="time-col"></td>
-          </tr>
-          <tr>
-            <td class="date-col finished" >August 1st</td>
-            <td class="finished">Friendship Days Car Show</td>
-          </tr>
-          <tr>
-            <td class="date-col finished">August 8th</td>
-            <td class="time-col"></td>
-          </tr>
-          <tr>
-            <td class="date-col finished">August 15th</td>
-            <td>MidWest Jet Boat Performance</td>
-          </tr>
-          <tr>
-            <td class="date-col finished">August 22nd</td>
-            <td>Debate Days <span style="color:var(--violet); font-size:0.8rem; font-weight:600;">(extended hours)</span></td>
-          </tr>
-          <tr>
-            <td class="date-col finished">August 29th</td>
-            <td class="time-col"></td>
-          </tr>
-          <tr>
-            <td class="date-col finished">September 5th</td>
-            <td class="time-col"></td>
-          </tr>
-          <tr>
-            <td class="date-col finished">September 12th</td>
-            <td>We're at the Sandwich Fair this week!</td>
-          </tr>
-          <tr>
-            <td class="date-col finished">September 19th</td>
-            <td class="time-col"></td>
-          </tr>
-          <tr>-->
-            <td class="date-col finished">September 26th</td>
-            <td>Alzheimer's Walk</td>
-          </tr>
-          <tr>
-            <td class="date-col finished">October 3rd</td>
-            <td class="time-col"></td>
-          </tr>
-          <tr>
-            <td class="date-col finished">October 10th</td>
-            <td>Suicide Prevention Walk &amp; Resource Fair</td>
-          </tr>
-          <tr style="background:var(--pale);">
-            <td class="date-col">October 17th<span class="badge-upcoming">Next</span></td>
-            <td><strong style="color:var(--deep);">🍂 Last Market Day</strong></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-
+ 
 
   <!-- CTA -->
   <section class="content-section bg-white" style="padding-top:2rem; padding-bottom:2.5rem;">
     <div class="content-inner" style="text-align:center;">
-      <h2 class="section-title" style="margin-bottom:0.75rem;">Can't make it to the market?</h2>
-      <p style="color:var(--muted); font-size:0.92rem; margin-bottom:1.5rem; max-width:460px; margin-left:auto; margin-right:auto;">
-        No problem! We ship candles &amp; wax melts anywhere, and breads within Illinois. Orders ship in 5–7 business days.
-      </p>
+
       <div style="display:flex; gap:0.75rem; justify-content:center; flex-wrap:wrap;">
         <a href="order-online.html" class="btn btn-gold">Shop Online</a>
         <a href="contact-us.html" class="btn btn-outline-purple">Contact Us</a>
