@@ -15,14 +15,13 @@
     .hero {
       display: grid;
       grid-template-columns: 1fr;
-      min-height: calc(100svh - var(--nav-h));
     }
     .hero-img {
       background: var(--pale);
       display: flex;
       align-items: center;
       justify-content: center;
-      min-height: 300px;
+      padding: 1.5rem 1.25rem;
       background-color: white;
     }
     .hero-img img {
@@ -32,6 +31,11 @@
       height: auto;
       max-height: 300px;
       margin: 0 auto;
+      mix-blend-mode: multiply;
+      transition: transform 0.3s;
+    }
+    .hero-img img:hover {
+      transform: translateY(-6px) scale(1.04);
     }
     .hero-text {
       background: var(--grad);
@@ -200,10 +204,10 @@
     @media (min-width: 768px) {
       .hero {
         grid-template-columns: 1fr 1fr;
-        min-height: calc(100vh - var(--nav-h));
+        min-height: min(60vh, 520px);
       }
-      .hero-img { align-self: stretch; }
-      .hero-text { padding: 4rem 3.5rem 4rem 4rem; }
+      .hero-img { align-self: stretch; padding: 2rem; }
+      .hero-text { padding: 3rem 3.5rem 3rem 4rem; }
       .market-banner {
         flex-direction: row;
         justify-content: space-between;
